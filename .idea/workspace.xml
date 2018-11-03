@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ff2bdce-4bcd-4668-9055-201380de462e" name="Default Changelist" comment="" />
+    <list default="true" id="9ff2bdce-4bcd-4668-9055-201380de462e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projetos-django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projetos-django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/projeto-django-documentação" beforeDir="false" afterPath="$PROJECT_DIR$/documents/projeto-django-documentação" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,27 +42,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
-          <entry key="py" value="9" />
+          <entry key="activate" value="1" />
+          <entry key="html" value="2" />
+          <entry key="md" value="2" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="HTML" value="2" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="projeto-django-documentação" value="928" />
-          <entry key="py" value="481" />
+          <entry key="html" value="169" />
+          <entry key="projeto-django-documentação" value="1430" />
+          <entry key="py" value="1007" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="932" />
-          <entry key="Python" value="481" />
+          <entry key="HTML" value="169" />
+          <entry key="PLAIN_TEXT" value="1434" />
+          <entry key="Python" value="1007" />
         </counts>
       </usages-collector>
     </session>
@@ -50,17 +78,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/documents/projeto-django-documentação">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-end-line="94" />
+            <state relative-caret-position="535">
+              <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="440">
+              <first_editor relative-caret-position="451">
                 <caret line="95" selection-start-line="95" selection-end-line="95" />
               </first_editor>
               <second_editor />
@@ -69,24 +106,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/polls/apps.py">
+        <entry file="file://$PROJECT_DIR$/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <element signature="e#631#659#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="390">
+              <caret line="59" column="49" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+                <marker date="1541266996908" expanded="true" signature="535:540" ph="..." />
+                <marker date="1541266996908" expanded="true" signature="644:741" ph="..." />
+                <marker date="1541266996908" expanded="true" signature="774:779" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,10 +166,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mysite/polls/admin.py" />
-        <option value="$PROJECT_DIR$/documents/projeto-django-documentação" />
         <option value="$PROJECT_DIR$/mysite/polls/models.py" />
         <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mysite/polls/views.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mysite2/manage.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/polls/views.py" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/detail.html" />
+        <option value="$PROJECT_DIR$/documents/projeto-django-documentação" />
+        <option value="$PROJECT_DIR$/polls/urls.py" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
       </list>
     </option>
   </component>
@@ -119,6 +201,34 @@
               <item name="projetos-django" type="b2602c69:ProjectViewProjectNode" />
               <item name="projetos-django" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="projetos-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetos-django" type="462c0819:PsiDirectoryNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetos-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetos-django" type="462c0819:PsiDirectoryNode" />
+              <item name="envs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetos-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetos-django" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetos-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetos-django" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetos-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projetos-django" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,8 +237,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,19 +289,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15390879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.11433172" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.11433172" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -201,55 +319,135 @@
     <MESSAGE value="alt" />
     <option name="LAST_COMMIT_MESSAGE" value="alt" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysite/polls/__init__.py">
+    <entry file="file://$PROJECT_DIR$/polls/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/migrations/__init__.py">
+    <entry file="file://$PROJECT_DIR$/polls/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/models.py">
+    <entry file="file://$PROJECT_DIR$/polls/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <marker date="1541204642917" expanded="true" signature="60:61" ph="..." />
+            <marker date="1541204642917" expanded="true" signature="167:173" ph="..." />
+            <marker date="1541204642917" expanded="true" signature="255:256" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/admin.py">
+    <entry file="file://$PROJECT_DIR$/polls/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documents/projeto-django-documentação">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/apps.py">
+    <entry file="file://$PROJECT_DIR$/polls/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/envs/env-polls/bin/activate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="440">
+          <first_editor relative-caret-position="451">
             <caret line="95" selection-start-line="95" selection-end-line="95" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+            <marker date="1541266996908" expanded="true" signature="535:540" ph="..." />
+            <marker date="1541266996908" expanded="true" signature="644:741" ph="..." />
+            <marker date="1541266996908" expanded="true" signature="774:779" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documents/projeto-django-documentação">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#631#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
