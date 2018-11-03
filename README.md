@@ -93,4 +93,27 @@ Se o servidor não estiver sendo executado, inicie-o da seguinte forma:
 
         17.1.1 - polls/admin.py : admin.site.register(Question), faça as devida importações.
         17.1.2 - rode o runserver e entre no admin e veirifique o ambiente.
-# docs-django
+
+18 - modificar o arquivo polls/views.py.
+
+19 - modificar o arquivo polls/urls.py
+    19.1 - Cada view é responsável por fazer uma das duas coisas: retornar um objeto HttpResponse contendo o conteúdo
+    para a página requisitada, ou levantar uma exceção como Http404.
+
+20 - Use o sistema de templates do Django para separar o design do código Python:
+     20.1 - crie um diretório chamado `` templates`` em seu diretório polls. O Django irá procurar templates lá.
+     20.2 - seu template deve estar em polls/templates/polls/index.html.
+     20.3 - aponte o caminho do diretório templates mysite/settings.py: 'DIRS': [os.path.join(BASE_DIR, 'templates')]
+
+21 - codifique o arquivo polls/templates/polls/index.html
+
+22 - Levantando um erro 404:
+    22.1 - modifique polls/views.py
+    22.2 - add from django.http import Http404
+
+23 - get_object_or_404 - um atalho para 404
+    23.1 - modifique def detail()
+
+24 - crie e modifique o arquivo polls/templates/polls/detail.html
+
+25 - add o Namespacing nomes de URL e modifique as urls da aplicação
