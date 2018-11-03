@@ -115,4 +115,4 @@ Se o servidor não estiver sendo executado, inicie-o da seguinte forma:
 
 24 - crie e modifique o arquivo polls/templates/polls/detail.html
 
-25 - Namespacing nomes de URL
+25 - add o Namespacing nomes de URL e modifique as urls da aplicação
